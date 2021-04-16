@@ -1,0 +1,16 @@
+micronaut:
+  application:
+    name: identity
+r2dbc:
+  datasources:
+    default:
+      url: r2dbc:h2:mem:///testdb;DB_CLOSE_ON_EXIT=FALSE
+      username: sa
+      password: ''
+      schema-generate: CREATE_DROP
+      dialect: H2
+consul:
+  client:
+    registration:
+      enabled: true
+    defaultZone: ${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}

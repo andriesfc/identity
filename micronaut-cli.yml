@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.darkgraymatter.chatterbox
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: gradle_kotlin
+features: [annotation-api, app-name, consul, data, data-r2dbc, discovery-consul, graalvm, gradle, h2, hibernate-validator, http-client, jackson-xml, jib, junit, kotlin, kotlin-application, kotlin-extension-functions, logback, management, netty-server, r2dbc, readme, shade, yaml]
